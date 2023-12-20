@@ -1,0 +1,14 @@
+name: Simple Commands
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  execute_commands:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Display current directory
+      run: pwd 
