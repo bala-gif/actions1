@@ -11,10 +11,10 @@ jobs:
 
     steps:
     - name: Display current directory
-      run: pwd # Prints the current working directory
+      run: pwd 
 
     - name: List files in the directory
-      run: ls -l  # Lists files in the current directory
+      run: ls -l  
 
     - name: Display system information
-      run: uname -a  # Prints system information
+      run: uname -a  
