@@ -11,4 +11,4 @@ jobs:
 
     steps:
     - name: Display current directory
-      run: pwd 
+      run: pwd ; cat README.md
