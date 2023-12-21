@@ -13,4 +13,4 @@ jobs:
     - name: checkout directory
       uses: actions/checkout@v4
     - name: Display current directory
-      run: cat README.md
+      run: ls;cat README.md
