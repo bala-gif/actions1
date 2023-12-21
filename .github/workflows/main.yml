@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    -name: checkout directory
-     uses: actions/checkout@v4
+    - name: checkout directory
+      uses: actions/checkout@v4
     - name: Display current directory
-      run: pwd ; cat README.md
+      run: cat README.md
